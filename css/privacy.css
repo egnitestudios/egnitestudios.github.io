@@ -1,0 +1,47 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sticky-header {
+    background-color: #FF7A0E;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.sticky-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.container h1, .container h2 {
+    color: #FF7A0E;
+}
+
+.container p {
+    color: #000000;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #FF7A0E;
+    border: 1px solid #FF7A0E;
+}
+
+.btn-primary:hover {
+    background-color: #FF9C3F;
+    border: 1px solid #FF9C3F;
+}
+
+footer {
+    background-color: #FF7A0E;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
