@@ -4,7 +4,7 @@ body {
 
 .sticky-header {
     background-color: #FF7A0E;
-    padding: 10px 0;
+    padding: 5px 0;
     position: sticky;
     top: 0;
     width: 100%;
@@ -19,6 +19,7 @@ body {
 
 .logo {
     height: 50px;
+    margin-right: auto; /* This will push other elements to the right */
 }
 
 .container h1, .container h2 {
@@ -36,7 +37,7 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #FF9C3F;
+    background-color: #000000;
     border: 1px solid #FF9C3F;
 }
 
